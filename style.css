@@ -1,0 +1,212 @@
+:root{
+    --text-color:#25282B;
+    --brand-color: #FDC435;
+    --heding-color:#333333;
+    --text-color-two:#828282;}
+/* css reset start */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #F9FAFF;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+
+}
+/* css reset end */
+.container{ max-width: 1200px;
+margin: auto;}
+.flex{
+    display: flex;
+}
+.align-items-center{
+    align-items:center ;
+}
+
+
+.playFair {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px 24px;
+}
+.title{
+    font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  text-align: center;
+  color: var(--text-color);
+  position: relative;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--brand-color);
+    width: 100px;
+    height: 2px;
+    border-radius: 2px;
+}
+/* common css end */
+nav{
+    padding: 12px 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+.navLogo,
+.navMenu{
+    width: 50%;
+}
+.navMenu ul{
+    justify-content:flex-end;
+    gap: 48px;
+    
+}
+.navLinks{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-color);
+}
+#banner{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-top: 111px;
+}
+.bannerContent{
+    max-width: 486px;
+}
+.bannerContent h4{
+    color: #FDC435;
+    font-size: 20px;
+}
+.bannerContent h1{
+    font-size: 64px;
+    line-height: 120%;
+    color: var(--heding-color);
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.bannerContent p{
+    font-size: 24px;
+    left: 36px;
+    color: var(--text-color-two);
+
+}
+.bannerLinks{
+    margin-top: 32px;
+    gap: 12px;
+}
+.projectWapper{
+    margin-top: 80px;
+}
+.btnBg{
+    background-color: var(--brand-color);
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.btnOutline{
+border: 2px solid var(--text-color);
+border-radius: 8px;
+}
+
+.projectCard{
+    max-width: 992px;
+    margin: auto;
+    border-radius: 24px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: rgb(47, 21, 142)24px 24px 24px;
+}
+.projectContentWapper, 
+.projectImg{
+width: 50%;
+}
+.projectContent{
+    max-width: 407px;
+    margin: auto;
+}
+.projectContent h3{
+    font-size: 40px;
+    color: var(--text-color);
+}
+.projectContent p{
+    font-size: 18px;
+    color: var(--text-color-two);
+    line-height: 150%;
+    margin: 24px 0px;
+}
+.projectContent a{
+    border-radius: 24px;
+}
