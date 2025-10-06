@@ -2,55 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-        <!-- font start-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:wght@700&display=swap" rel="stylesheet">
-         <!-- font end-->
-        <link rel="stylesheet" href="./style.css">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Font end -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>potfolio</title>
 </head>
 <body>
     <!-- nav part start -->
      <nav>
         <div class="container">
-            <div class="flex align-items-center">
-                <div class="navLogo">
-                    <img src="./public/logo.png" alt="logo" width="130px" />
-                </div>
-                <menu class="navMenu">
-                    <ul class="flex align-items-center">
-                       <li><a href="" class="navLinks">About</a></li>
-                       <li><a href="" class="navLinks">Projects</a></li>
-                       <li><a href="" class="navLinks">Contacts</a></li>
-                    </ul>
-                </menu>
-            
+          <div class="flex align-items-center">
+            <div class="navLogo">
+                <img src="./public/logo.png" alt="logo seo" width="130px"  />
             </div>
+            <menu class="navMenu">
+                <ul class="flex align-items-center">
+                    <li><a href="" class="navLinks">About</a></li>
+                    <li><a href="" class="navLinks">Projects</a></li>
+                    <li><a href="" class="navLinks">Contacts</a></li>
+                </ul>
+            </menu>
+          </div>
         </div>
      </nav>
      <!-- nav part end -->
+
       <!-- hero section start -->
        <section id="banner" style="background-image: url(./assets/bannerBg.png);">
         <div class="container">
-            <div class="bannerContent">
-                <h4>UI/UX Designer</h4>
-                <h1 class="playFair">Hello,  my name is Madelyn Torff</h1>
-                <p>Short text with details about you, what you do or your professional career. You can add more information on the about page.
-                </p>
-                <div class="bannerLinks flex align-items-center">
-                    <a href="" class="btn btnBg">Projects</a>
-                    <a href="" class="btn btnOutline">Linkedin</a>
-                </div> 
-            </div>
-
+        <div class="bannerContent">
+          <h4> UI/UX Designer</h4>
+          <h1 class="playfairDisplay">Hello, my name is Madelyn Toffk</h1>
+          <p>Short text with details about you, what you do or your professional career. You can add more information on the about page.
+          </p>
+          <div class="bannerLinks flex align-items-center">
+            <a href="" class="btn btnBg">Projects</a>
+            <a href="" class="btn btnOutline">Linkedin</a>
+          </div>
         </div>
-
+        </div>
        </section>
-       <!-- hero section end -->
-        <!-- projects section start -->
-        
-         <!-- projects section end -->
+       <!-- hero section end-->
+       <!-- projects section start-->
+        <section id="projects">
+         <h2 class="title">Projects</h2>
+         <div class="container">
+           <div class="projectWrapper flex">
+             <div class="projectCard flex align-items-center">
+              <div class="projectContent">
+               <div class="projectContentWrapper">
+                <h3 class="playfairDisplay">Project Name</h3>
+                <p>
+                  I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.
+                </p>
+                <a href="" class="btn btnOutline">View Project</a>
+               </div>
+            </div>
+            <div class="projectImg">
+             <img src="./projects/projects1.png" alt="imege">
+            </div>
+           </div>
+            <div class="projectCard flex align-items-center">
+              <div class="projectContent">
+               <div class="projectContentWrapper">
+                <h3 class="playfairDisplay">Project Name</h3>
+                <p>
+                  I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.
+                </p>
+                <a href="" class="btn btnOutline">View Project</a>
+               </div>
+            </div>
+            <div class="projectImg">
+             <img src="./projects/projects2.png" alt="imege">
+            </div>
+           </div>
+           <div class="projectCard flex align-items-center">
+              <div class="projectContent">
+               <div class="projectContentWrapper">
+                <h3 class="playfairDisplay">Project Name</h3>
+                <p>
+                  I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.
+                </p>
+                <a href="" class="btn btnOutline">View Project</a>
+               </div>
+            </div>
+            <div class="projectImg">
+             <img src="./projects/projects3.png" alt="imege">
+            </div>
+           </div>
+           </div>
+         </div>
+        </section>
+        <!-- projects section end-->
 </body>
 </html>
